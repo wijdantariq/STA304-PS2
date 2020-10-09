@@ -40,6 +40,8 @@ Though unexpected, Petit Poll has analyzed this outcome which holds significant 
 
 This hypothesis illustrates a weakness in our survey- we have no answers to why voters voted a certain way or how the party can improve. "Why did voters originally vote Conservative?", "Why do voters prefer the Liberal Party?", "What do voters like and dislike about the Conservatives?", "How can they do better?" are questions we cannot answer at this stage but would require further testing. Other areas of weakness include not capturing all the residents in a household, missed opportunity to discuss the pandemic more thoroughly, how to combat non-response, and too simplistic of a survey. If the Progressive Conservative Party of Ontario sees fit, we’d like to explore the how’s and why’s, track trends in specific ridings, and potentially create a logical survey that conveys a different series of questions based on whether the respondents would vote Conservative or non-Conservative. Overall, we believe the set of questions asked in our survey was a good starting point to grasp voters' current political viewpoint and subsequent monthly surveys are encouraged to learn more.
 
+This report is hosted on https://github.com/wijdantariq/STA304-PS2 
+
 # Introduction
 
 In the 2018 Ontario General Election, the Progressive Conservative Party of Ontario won the majority government in legislature. As junior statisticians at Petit Poll, we partnered with the Progressive Conservative Party of Ontario to provide them with monthly polling updates. Based on current events relating to the COVID-19, we wanted to gauge Ontarians’ satisfaction levels with how the party has responded to the pandemic. As Ontarians have been impacted by COVID-19 due to policy mandation, we believe that based on the policy regulation, this may impact voters’ opinions towards the provincial government. Our aim is to help the Conservative Party further understand if current policies align with the public’s values and for potential adjustment of policies for the future. 
@@ -371,11 +373,11 @@ knitr::include_graphics("Petit_Poll_Letter.png")
 ```
 
 ```{r, echo=FALSE, fig.cap="Screenshot of survey questions. Q1-Q6.", out.width = '100%'}
-knitr::include_graphics("Survey_Screenshot_1.png")
+knitr::include_graphics("Survey_Screenshot_1.jpg")
 ```
 
 ```{r, echo=FALSE, fig.cap="Screenshot of survey questions. Q7-Q13.", out.width = '100%'}
-knitr::include_graphics("Survey_Screenshot_2.png")
+knitr::include_graphics("Survey_Screenshot_2.jpg")
 ```
 
 \newpage
